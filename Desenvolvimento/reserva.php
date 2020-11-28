@@ -74,30 +74,30 @@
 					<form action="envio.php" method="POST">
 						<div>
 							<label for="nome">Nome:</label>
-							<input type="text" id="nome" class="inpu" name="nome">
+							<input type="text" id="nome" class="inpu" name="nome" required="">
 						</div>
 						<div>
 							<label for="sobrenome">Sobrenome:</label>
-							<input type="text" id="sobrenome" class="inpu" name="sobrenome">
+							<input type="text" id="sobrenome" class="inpu" name="sobrenome" required="">
 						</div>
 						<div>
 							<label for="email">E-mail:</label>
-							<input type="email" id="email" class="inpu" name="email">
+							<input type="email" id="email" class="inpu" name="email" required="">
 						</div>
 						<div>
 							<label for="telefone">Telefone:</label>
-							<input type="text" id="telefone" class="inpu" name="telefone">
+							<input type="text" id="telefone" class="inpu" name="telefone" required="">
 						</div>
 						<div>
 							<label for="convidados">Convidados:</label>
-							<input type="number" id="convidados" class="inpu" name="convidados">
+							<input type="number" id="convidados" class="inpu" name="convidados" required="">
 						</div>
 						<div class="tform">
 							<h2>ESCOLHA A DATA E O HORARIO DESEJADO</h2>
 						</div>
 						<div>
 							<label for="dia">Data:</label>
-							<input type="date" id="data" class="inpu" name="dia">
+							<input type="date" id="data" class="inpu" name="dia" required="">
 						</div>
 						<div>
 							<label for="horario">Horario:</label>
